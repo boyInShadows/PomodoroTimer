@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",           // 👈 important
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"]          // @/xyz -> ./xyz from project root
     }
   }
 }
