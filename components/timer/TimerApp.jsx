@@ -6,7 +6,7 @@ import ConnectionStatus from './ConnectionStatus';
 import Header from './Header';
 import CircularTimer from './CircularTimer';
 import Controls from './Controls';
-import ModeSwitch from './ModeSwitch';
+// import ModeSwitch from './ModeSwitch';
 import StatsSection from './StatsSection';
 import Instructions from './Instructions';
 
@@ -154,10 +154,10 @@ const [darkMode, setDarkMode] = useState(() => {
           styles={styles}
         />
 
-        <ModeSwitch
+        {/* <ModeSwitch
           isFocus={timerState.isFocus}
           onSwitch={switchMode}
-        />
+        /> */}
 
         <StatsSection stats={stats} textMutedClass={styles.textMuted} />
 
